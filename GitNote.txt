@@ -1,0 +1,342 @@
+
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ git remote add upstream https://github.com/RushikeshChavan0101/WebPrograming.git
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ git remote -v
+origin  https://github.com/RushikeshChavan0101/WebPrograming.git (fetch)
+origin  https://github.com/RushikeshChavan0101/WebPrograming.git (push)
+upstream        https://github.com/RushikeshChavan0101/WebPrograming.git (fetch)
+upstream        https://github.com/RushikeshChavan0101/WebPrograming.git (push)
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ touch file.txt
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ vi file.txt
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ git branch rushi
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ git checkout rushi
+Switched to branch 'rushi'
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git add .
+warning: in the working copy of 'file.txt', LF will be replaced by CRLF the next time Git touches it
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git add .
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git commit -m "added text file from rushi"
+[rushi 8c68ff0] added text file from rushi
+ 1 file changed, 3 insertions(+)
+ create mode 100644 file.txt
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git log
+commit 8c68ff03f0749417c6db1c9c7728f6b96c6b7348 (HEAD -> rushi)
+Author: Rushikesh-bit-dotcom <rushiychavan@gmail.com>
+Date:   Sun May 19 10:12:02 2024 +0530
+
+    added text file from rushi
+
+commit 7b430acc5684bc8625926b9273d5a24cc200dcd1 (origin/main, origin/HEAD, main)
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Tue Jul 25 01:51:28 2023 +0530
+
+    CRUD Using Express
+
+commit 5d23af29318f975bffbebe0ef18d58b7663a05ca
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Mon Jul 17 20:15:58 2023 +0530
+
+    node n express
+
+commit a2d2dc3ccf364f445f74583ba7c0c872dcdb54b9
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Sat Jun 17 00:32:38 2023 +0530
+
+    lec 9,10
+
+commit 4fbbf766c88c998ceb2f89ad6532e0d756a77027
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Fri Jun 16 01:13:44 2023 +0530
+
+    day 1 commit
+
+commit b7d2847b88983cc1f79ca9a6200ce0068212dcd0
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:10:18 2023 +0530
+
+    Update README.md
+
+commit 5b51267c548fee764a9b501c43427ad73e38341a
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:09:10 2023 +0530
+
+    Initial commit
+(END)
+commit a2d2dc3ccf364f445f74583ba7c0c872dcdb54b9
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Sat Jun 17 00:32:38 2023 +0530
+
+    lec 9,10
+
+commit 4fbbf766c88c998ceb2f89ad6532e0d756a77027
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Fri Jun 16 01:13:44 2023 +0530
+
+    day 1 commit
+
+commit b7d2847b88983cc1f79ca9a6200ce0068212dcd0
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:10:18 2023 +0530
+
+    Update README.md
+
+commit 5b51267c548fee764a9b501c43427ad73e38341a
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:09:10 2023 +0530
+
+    Initial commit
+(END)
+commit 8c68ff03f0749417c6db1c9c7728f6b96c6b7348 (HEAD -> rushi)
+Author: Rushikesh-bit-dotcom <rushiychavan@gmail.com>
+Date:   Sun May 19 10:12:02 2024 +0530
+
+    added text file from rushi
+
+commit 7b430acc5684bc8625926b9273d5a24cc200dcd1 (origin/main, origin/HEAD, main)
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Tue Jul 25 01:51:28 2023 +0530
+
+    CRUD Using Express
+
+commit 5d23af29318f975bffbebe0ef18d58b7663a05ca
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Mon Jul 17 20:15:58 2023 +0530
+
+    node n express
+
+commit a2d2dc3ccf364f445f74583ba7c0c872dcdb54b9
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Sat Jun 17 00:32:38 2023 +0530
+
+    lec 9,10
+
+commit 4fbbf766c88c998ceb2f89ad6532e0d756a77027
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Fri Jun 16 01:13:44 2023 +0530
+
+    day 1 commit
+
+commit b7d2847b88983cc1f79ca9a6200ce0068212dcd0
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:10:18 2023 +0530
+
+    Update README.md
+
+commit 5b51267c548fee764a9b501c43427ad73e38341a
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:09:10 2023 +0530
+
+    Initial commit
+~
+~
+~
+~
+~
+~
+~
+w
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git push origin rushi
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'rushi' on GitHub by visiting:
+remote:      https://github.com/RushikeshChavan0101/WebPrograming/pull/new/rushi
+remote:
+To https://github.com/RushikeshChavan0101/WebPrograming.git
+ * [new branch]      rushi -> rushi
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git touch text.txt
+git: 'touch' is not a git command. See 'git --help'.
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ touch text.txt
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git add .
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git commit -m "added new file"
+[rushi a99950f] added new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text.txt
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git push origin rushi
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/RushikeshChavan0101/WebPrograming.git
+   8c68ff0..a99950f  rushi -> rushi
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git log
+commit a99950f501bc9c33a53188b94bd88b2b078b46a1 (HEAD -> rushi, origin/rushi)
+Author: Rushikesh-bit-dotcom <rushiychavan@gmail.com>
+Date:   Sun May 19 10:27:17 2024 +0530
+
+    added new file
+
+commit 8c68ff03f0749417c6db1c9c7728f6b96c6b7348
+Author: Rushikesh-bit-dotcom <rushiychavan@gmail.com>
+Date:   Sun May 19 10:12:02 2024 +0530
+
+    added text file from rushi
+
+commit 7b430acc5684bc8625926b9273d5a24cc200dcd1 (origin/main, origin/HEAD, main)
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Tue Jul 25 01:51:28 2023 +0530
+
+    CRUD Using Express
+
+commit 5d23af29318f975bffbebe0ef18d58b7663a05ca
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Mon Jul 17 20:15:58 2023 +0530
+
+    node n express
+
+commit a2d2dc3ccf364f445f74583ba7c0c872dcdb54b9
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Sat Jun 17 00:32:38 2023 +0530
+
+    lec 9,10
+
+commit 4fbbf766c88c998ceb2f89ad6532e0d756a77027
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Fri Jun 16 01:13:44 2023 +0530
+
+    day 1 commit
+
+commit b7d2847b88983cc1f79ca9a6200ce0068212dcd0
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:10:18 2023 +0530
+
+    Update README.md
+
+commit 5b51267c548fee764a9b501c43427ad73e38341a
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:09:10 2023 +0530
+
+    Initial commit
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git reset 8c68ff03f0749417c6db1c9c7728f6b96c6b7348
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git status
+On branch rushi
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git add .
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git stash
+Saved working directory and index state WIP on rushi: 8c68ff0 added text file from rushi
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git push origin rushi
+To https://github.com/RushikeshChavan0101/WebPrograming.git
+ ! [rejected]        rushi -> rushi (non-fast-forward)
+error: failed to push some refs to 'https://github.com/RushikeshChavan0101/WebPrograming.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git push origin rushi -f
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RushikeshChavan0101/WebPrograming.git
+ + a99950f...8c68ff0 rushi -> rushi (forced update)
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (rushi)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$ git log
+commit 7b430acc5684bc8625926b9273d5a24cc200dcd1 (HEAD -> main, origin/main, origin/HEAD)
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Tue Jul 25 01:51:28 2023 +0530
+
+    CRUD Using Express
+
+commit 5d23af29318f975bffbebe0ef18d58b7663a05ca
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Mon Jul 17 20:15:58 2023 +0530
+
+    node n express
+
+commit a2d2dc3ccf364f445f74583ba7c0c872dcdb54b9
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Sat Jun 17 00:32:38 2023 +0530
+
+    lec 9,10
+
+commit 4fbbf766c88c998ceb2f89ad6532e0d756a77027
+Author: shivraj <shivrajdesai24@gmail.com>
+Date:   Fri Jun 16 01:13:44 2023 +0530
+
+    day 1 commit
+
+commit b7d2847b88983cc1f79ca9a6200ce0068212dcd0
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:10:18 2023 +0530
+
+    Update README.md
+
+commit 5b51267c548fee764a9b501c43427ad73e38341a
+Author: Shiivraj24 <131229789+Shiivraj24@users.noreply.github.com>
+Date:   Fri Jun 16 01:09:10 2023 +0530
+
+    Initial commit
+
+rushi@LAPTOP-LNURBAR7 MINGW64 ~/Desktop/WebPrograming (main)
+$
+
+
